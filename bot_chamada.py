@@ -107,8 +107,8 @@ f = open("config.json")
 config = json.load(f)
 f.close()
 
-# reuniao = str(input("\nInsira a url da reunião: "))
-reuniao = "https://meet.google.com/rah-viep-vuo"
+reuniao = str(input("\nInsira a url da reunião: "))
+# reuniao = "https://meet.google.com/rah-viep-vuo"
 
 
 email = config["email"]
