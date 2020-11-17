@@ -18,3 +18,5 @@ Após o selenium instalado, o script já pode ser executado:
 ```
 python .\bot_chamada.py
 ```
+
+**Limitado ao Firefox à principio**
