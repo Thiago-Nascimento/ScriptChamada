@@ -54,7 +54,7 @@ class BotChamada:
 
         # Mutar mic e desativar camera
         driver.find_element_by_xpath("//div[@data-tooltip='Desativar microfone (ctrl + d)']").click()
-        driver.find_element_by_xpath("//div[@data-tooltip='Desativar câmera (ctrl + e)']").click()
+        # driver.find_element_by_xpath("//div[@data-tooltip='Desativar câmera (ctrl + e)']").click()
         time.sleep(5)
 
         # Clicar em participar
@@ -109,6 +109,7 @@ f.close()
 
 reuniao = str(input("\nInsira a url da reunião: "))
 # reuniao = "https://meet.google.com/rah-viep-vuo"
+# reuniao = "https://meet.google.com/mpf-ozve-wez"
 
 
 email = config["email"]
